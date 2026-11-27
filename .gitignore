@@ -1,0 +1,53 @@
+# Lista blanca: se ignora todo y solo se comparte el sistema (código, guiones, agentes, guías).
+/*
+!/.gitignore
+!/README.md
+!/CLAUDE.md
+!/skills-lock.json
+!/package.json
+
+# agentes del equipo (los impeccable-* vienen con la skill impeccable y no se comparten)
+!/.claude/
+/.claude/*
+!/.claude/agents/
+/.claude/agents/impeccable-*
+
+# reels: builder de la serie, scripts de voz, guiones y fuentes de cada vídeo
+!/reels/
+/reels/*
+!/reels/serie/
+!/reels/reel-03/
+!/reels/reel-04/
+!/reels/reel-05/
+!/reels/reel-06/
+!/reels/reel-07/
+!/reels/reel-08/
+
+# dentro de cada reel, nada de medios, renders ni HTML generado
+*.mp4
+*.wav
+*.m4a
+*.mp3
+*.f32
+*.png
+*.jpg
+*.jpeg
+/reels/reel-*/capturas/
+/reels/reel-*/revision-argos/
+/reels/reel-*/voz/frases/
+/reels/reel-*/video/assets/
+/reels/reel-*/video/compositions/
+/reels/reel-*/video/index.html
+/reels/reel-*/video/.hyperframes/
+/reels/reel-*/video/node_modules/
+/reels/reel-*/voz/_union/
+/reels/reel-*/voz/frases.v1-hermes.txt
+__pycache__/
+*.log
+log.txt
+gen.log
+
+# foto de perfil (el HTML que la dibuja)
+!/perfil/
+/perfil/*
+!/perfil/perfil.html

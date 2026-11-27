@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<style>
+  html, body { margin:0; width:1080px; height:1080px; overflow:hidden; background:#1B0B3A; }
+  svg { display:block; }
+  text { font-family:'Montserrat', sans-serif; font-weight:900; }
+</style></head>
+<body>
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="70%">
+      <stop offset="0" stop-color="#4A1670"/>
+      <stop offset="0.55" stop-color="#2A0B4A"/>
+      <stop offset="1" stop-color="#160634"/>
+    </radialGradient>
+    <linearGradient id="arc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFC94A"/>
+      <stop offset="1" stop-color="#FF3D8B"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <g transform="translate(540 540) scale(1.18) translate(-540 -531)">
+
+  <!-- stopwatch crown and side button -->
+  <rect x="490" y="168" width="100" height="44" rx="14" fill="#FFC94A"/>
+  <rect x="518" y="206" width="44" height="40" fill="#FFC94A"/>
+  <g transform="rotate(45 540 580)"><rect x="515" y="210" width="50" height="34" rx="10" fill="#FFC94A"/></g>
+
+  <!-- dial -->
+  <circle cx="540" cy="580" r="300" fill="#1B0B3A" stroke="#FFC94A" stroke-width="26"/>
+  <!-- minute ticks -->
+  <g stroke="#6B4A92" stroke-width="10" stroke-linecap="round">
+    <line x1="540" y1="318" x2="540" y2="346"/><line x1="540" y1="814" x2="540" y2="842"/>
+    <line x1="278" y1="580" x2="306" y2="580"/><line x1="774" y1="580" x2="802" y2="580"/>
+  </g>
+  <!-- progress arc (most of a minute) -->
+  <circle cx="540" cy="580" r="246" fill="none" stroke="url(#arc)" stroke-width="40" stroke-linecap="round"
+          stroke-dasharray="1236 1546" transform="rotate(-90 540 580)" filter="url(#glow)"/>
+
+  <!-- big 1 -->
+  <text x="540" y="672" text-anchor="middle" font-size="300" fill="#FFFFFF"
+        style="paint-order:stroke" stroke="#2A0B4A" stroke-width="10" letter-spacing="-8">1</text>
+  <text x="540" y="752" text-anchor="middle" font-size="62" fill="#FFC94A" letter-spacing="6">DATO</text>
+  </g>
+</svg>
+</body></html>

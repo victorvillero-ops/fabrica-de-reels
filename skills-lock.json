@@ -1,0 +1,390 @@
+{
+  "version": 2,
+  "skills": {
+    "ab-hook-tester": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/ab-hook-tester/SKILL.md",
+      "computedHash": "9901c4dec45f097139ce4121faafaeba0a7835fbe460cf2cf3d7416715c68562"
+    },
+    "animate": {
+      "source": "delphi-ai/animate-skill",
+      "commit": "71bc617e7000e69b679549f13ea132e696420d6c",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "0c7b6b236797e43a0b185dc4913484612efa4f8d22ce05812f7467761120837d"
+    },
+    "b-roll-shot-list": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/b-roll-shot-list/SKILL.md",
+      "computedHash": "3b60e0574b802dd5bbe835547b587918850266818eb3edc492c2d47fc94a8297"
+    },
+    "caption-and-hashtags": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/caption-and-hashtags/SKILL.md",
+      "computedHash": "2054ff0e181e2c036d4d533fb79b9d3d55a053562a7ccc237c7f94c44cb0c568"
+    },
+    "competitor-teardown": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/competitor-teardown/SKILL.md",
+      "computedHash": "219527b161445d710ce7ec16b2d176833193be9a2fdce1253cb0b2d1a0018335"
+    },
+    "content-calendar": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/content-calendar/SKILL.md",
+      "computedHash": "bfa359fb814a8ef0ecb1c7a7f2b8058c385409e7dc286b07bf30f928dfb58362"
+    },
+    "copywriting": {
+      "source": "coreyhaines31/marketingskills",
+      "commit": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
+      "sourceType": "github",
+      "skillPath": "skills/copywriting/SKILL.md",
+      "computedHash": "6b86be15d7e8397c27d339fbcbf72718854f96f096ca617889e45b5b8174c393"
+    },
+    "cover-thumbnail-brief": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/cover-thumbnail-brief/SKILL.md",
+      "computedHash": "5f6e393de47d0e0bb7e3bb5a5dd550ee21615af855f04afbd1f1761756da066e"
+    },
+    "design-taste-frontend": {
+      "source": "Leonxlnx/taste-skill",
+      "commit": "d1a2bb41d927083ac7118f60cfc9cdf711810ea0",
+      "sourceType": "github",
+      "skillPath": "skills/taste-skill/SKILL.md",
+      "computedHash": "b10eab0a9684cd09cf34c31ef04a3bf530a5f4404422f9c520d42372d670c7fc"
+    },
+    "earshot": {
+      "source": "Leonxlnx/earshot",
+      "commit": "7a7f7c5c70d4a763a1eca4b3666af7c77e313f97",
+      "sourceType": "github",
+      "skillPath": "skills/earshot/SKILL.md",
+      "computedHash": "4ce67786e15c6018bd50254c159494d6d70c6b051177fc4b4f9aadd5390872d7"
+    },
+    "figma": {
+      "source": "heygen-com/hyperframes",
+      "commit": "cb9dfa8f0c9edef155493e1393dd7981efbda015",
+      "sourceType": "github",
+      "skillPath": "skills/figma/SKILL.md",
+      "computedHash": "3441e3b034cecb1697fa3fd2a7f7339ebc4f2a6b17d9ade7cf452d71745e7a6f"
+    },
+    "going-viral": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/going-viral/SKILL.md",
+      "computedHash": "d9fe19d5324d61149903ee745fb4d733a48d75b575e62dda8d4aa9cf5316e4b9"
+    },
+    "gsap-core": {
+      "source": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-core/SKILL.md",
+      "computedHash": "dfc8ba849fa8b81c8cc60964ee2a5fa8db4b2a2611801cf549a5b267b8284fa5"
+    },
+    "gsap-frameworks": {
+      "source": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-frameworks/SKILL.md",
+      "computedHash": "25f2f1f85c3d7a6431623c50e894af58213cc96d4e6660564be80ca011b883f6"
+    },
+    "gsap-performance": {
+      "source": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-performance/SKILL.md",
+      "computedHash": "4dd4382cad329927a248fbe55c426901f2bf4f5c598db6ef5ec38c19861b829f"
+    },
+    "gsap-plugins": {
+      "source": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-plugins/SKILL.md",
+      "computedHash": "328b52a98e9704c0349ba2cee23a6a92376c06b6b1fd3e60e5c20395b55e25e8"
+    },
+    "gsap-react": {
+      "source": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-react/SKILL.md",
+      "computedHash": "35fd08f2cbfc945f1a8cdd39e232882a19e27781a4043ee1bc71f65432f03389"
+    },
+    "gsap-scrolltrigger": {
+      "source": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-scrolltrigger/SKILL.md",
+      "computedHash": "c29c5a0fb1506a7f577fe68282eafc6df14b8d2b8ecd24f1f05836f5a0957b67"
+    },
+    "gsap-timeline": {
+      "source": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-timeline/SKILL.md",
+      "computedHash": "622140f48b7aa6bcf2f4d4c050b8fa20effa533688a1650854f5ffc1be169a0b"
+    },
+    "gsap-utils": {
+      "source": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-utils/SKILL.md",
+      "computedHash": "d05b56284eea0118d481b8c673aff27cae66199282995bfe78315785f561002d"
+    },
+    "hook-mining": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/hook-mining/SKILL.md",
+      "computedHash": "532851ddf3d28fb46f0e474a7c94ab57b8c39a4c83865cebc3795f0a7bc1b4a1"
+    },
+    "hyperframes": {
+      "source": "heygen-com/hyperframes",
+      "commit": "cb9dfa8f0c9edef155493e1393dd7981efbda015",
+      "sourceType": "github",
+      "skillPath": "skills/hyperframes/SKILL.md",
+      "computedHash": "1ed8d500703798c3893a0780196724d8c02c413a6765f4647f8d120d984cf561"
+    },
+    "hyperframes-cli": {
+      "source": "heygen-com/hyperframes",
+      "commit": "cb9dfa8f0c9edef155493e1393dd7981efbda015",
+      "sourceType": "github",
+      "skillPath": "skills/hyperframes-cli/SKILL.md",
+      "computedHash": "0ea9db9323924084f7e2b24e9eb2755891ba7a74c0b706c2d3ea0e54b7b23eea"
+    },
+    "hyperframes-registry": {
+      "source": "heygen-com/hyperframes",
+      "commit": "cb9dfa8f0c9edef155493e1393dd7981efbda015",
+      "sourceType": "github",
+      "skillPath": "skills/hyperframes-registry/SKILL.md",
+      "computedHash": "6867a66011b2cda40600cc9bff07e89197b756e6aa77861d884285ba7a869361"
+    },
+    "json-canvas": {
+      "source": "obsidianmd/obsidian-skills",
+      "commit": "79e85b73ef041fdfb6437ab3824e2fe29eda9244",
+      "sourceType": "github",
+      "skillPath": "plugins/obsidian/skills/json-canvas/SKILL.md",
+      "computedHash": "5d0499ad8ce7f68bcd501bea93a80c3a0406722f182a5b50cd9d1ec3c34c4ea5"
+    },
+    "media-use": {
+      "source": "heygen-com/hyperframes",
+      "commit": "cb9dfa8f0c9edef155493e1393dd7981efbda015",
+      "sourceType": "github",
+      "skillPath": "skills/media-use/SKILL.md",
+      "computedHash": "1fea2c412c334565c6987e62e60db5d7b778fdbec4de55a5acc2a4f1a936162a"
+    },
+    "motion-design": {
+      "source": "LottieFiles/motion-design-skill",
+      "commit": "d77a9fc8cb371cab1ba5420df5bfd232cd14c9bb",
+      "sourceType": "github",
+      "skillPath": "skills/motion-design/SKILL.md",
+      "computedHash": "be5bc38a720ec04b0c78ebf33b30e2bc8fde2d0cb3c5d4f37d383059d341802f"
+    },
+    "obsidian-bases": {
+      "source": "obsidianmd/obsidian-skills",
+      "commit": "79e85b73ef041fdfb6437ab3824e2fe29eda9244",
+      "sourceType": "github",
+      "skillPath": "plugins/obsidian/skills/obsidian-bases/SKILL.md",
+      "computedHash": "69a3105a2237f0d09a74ee197a64be3c3a07e401e4dcd7fd9ad499c574b58cf6"
+    },
+    "obsidian-cli": {
+      "source": "obsidianmd/obsidian-skills",
+      "commit": "79e85b73ef041fdfb6437ab3824e2fe29eda9244",
+      "sourceType": "github",
+      "skillPath": "plugins/obsidian/skills/obsidian-cli/SKILL.md",
+      "computedHash": "c50a6a32f35be2656fcae1b1ead19fd8ef228fcd89b852d4d8b9f9b93b975a1c"
+    },
+    "obsidian-markdown": {
+      "source": "obsidianmd/obsidian-skills",
+      "commit": "79e85b73ef041fdfb6437ab3824e2fe29eda9244",
+      "sourceType": "github",
+      "skillPath": "plugins/obsidian/skills/obsidian-markdown/SKILL.md",
+      "computedHash": "c5c46fd4ab6321d2ccc3f680ee5372efd1d070749e6ddb8e571e0b0c2ac1ae16"
+    },
+    "on-screen-text-writer": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/on-screen-text-writer/SKILL.md",
+      "computedHash": "51905b37f2ce0ab0810455f1abadf30b6cac4b7b00317c64b19fa2da5a442e3d"
+    },
+    "real-sound": {
+      "source": "Leonxlnx/earshot",
+      "commit": "7a7f7c5c70d4a763a1eca4b3666af7c77e313f97",
+      "sourceType": "github",
+      "skillPath": "skills/real-sound/SKILL.md",
+      "computedHash": "0caed483c0c11a7b3dcc7e449d2856a1845a9ea13251f2708ff0e9c4397045fb"
+    },
+    "reel-analyzer": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/reel-analyzer/SKILL.md",
+      "computedHash": "ddf34628ebd892b7689f5e2e4c5a0bb4af2fe00839b1cbd712781536f3006450"
+    },
+    "reel-builder": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/reel-builder/SKILL.md",
+      "computedHash": "548c18192014f980b870ed190807f890e920c613c8dfb7fba51dd993c041ee51"
+    },
+    "reel-scripter": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/reel-scripter/SKILL.md",
+      "computedHash": "8b74c2cfe021c97e67ad88b96db8dbe22eebff91705088917f3ee18d14eb31de"
+    },
+    "remotion-best-practices": {
+      "source": "remotion-dev/skills",
+      "commit": "a3f4098a2afd0e13f6a6f8c8760e275f75457ea9",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-best-practices/SKILL.md",
+      "computedHash": "269ff3a2eef0fcbb17e01ee5dbf1488438156e60091703f65932185fca239728"
+    },
+    "remotion-to-hyperframes": {
+      "source": "heygen-com/hyperframes",
+      "commit": "cb9dfa8f0c9edef155493e1393dd7981efbda015",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-to-hyperframes/SKILL.md",
+      "computedHash": "9fe6e78f8a3730a6365cf27127e393b75de28b70f1958595fe423f2b5fd2866e"
+    },
+    "reverse-any-video": {
+      "source": "heygen-com/hyperframes",
+      "commit": "cb9dfa8f0c9edef155493e1393dd7981efbda015",
+      "sourceType": "github",
+      "skillPath": "skills/reverse-any-video/SKILL.md",
+      "computedHash": "221f106c2b350432e566d8469f91c914978a868becd7fffe72f312ae105d1297"
+    },
+    "second-brain": {
+      "source": "NicholasSpisak/second-brain",
+      "commit": "3e429c7ccd0a41617d0d3d782f681b7333f7ee0b",
+      "sourceType": "github",
+      "skillPath": "skills/second-brain/SKILL.md",
+      "computedHash": "34a66b8d1b514b227a608529649a46a3a0f7513c4cc20619e939255f353083ed"
+    },
+    "second-brain-ingest": {
+      "source": "NicholasSpisak/second-brain",
+      "commit": "3e429c7ccd0a41617d0d3d782f681b7333f7ee0b",
+      "sourceType": "github",
+      "skillPath": "skills/second-brain-ingest/SKILL.md",
+      "computedHash": "9b4e303fcfed3f1d94c44c777b7b13bf8ce7704664b1c2834432f78a5b4b5158"
+    },
+    "second-brain-lint": {
+      "source": "NicholasSpisak/second-brain",
+      "commit": "3e429c7ccd0a41617d0d3d782f681b7333f7ee0b",
+      "sourceType": "github",
+      "skillPath": "skills/second-brain-lint/SKILL.md",
+      "computedHash": "2ac510261a7706e03b0388abe8d7dd939ec0714a4e2425dd5d588959b9ff4978"
+    },
+    "second-brain-query": {
+      "source": "NicholasSpisak/second-brain",
+      "commit": "3e429c7ccd0a41617d0d3d782f681b7333f7ee0b",
+      "sourceType": "github",
+      "skillPath": "skills/second-brain-query/SKILL.md",
+      "computedHash": "c1a1b5e585eb508efa5d0c957062226cef75b2ea3cbf3a386487bbdd3657d07c"
+    },
+    "series-planner": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/series-planner/SKILL.md",
+      "computedHash": "ee4aa4cf0d3f8689eea57658618307c17bf4a69c054359eb130b6bb58a0125d1"
+    },
+    "slideshow": {
+      "source": "heygen-com/hyperframes",
+      "commit": "cb9dfa8f0c9edef155493e1393dd7981efbda015",
+      "sourceType": "github",
+      "skillPath": "skills/slideshow/SKILL.md",
+      "computedHash": "a7d87591e3b0ff9eaba32df4ca4dc6d46fbb8824751a37f5cede2cda20d434e5"
+    },
+    "style-sampling": {
+      "source": "heygen-com/hyperframes",
+      "commit": "cb9dfa8f0c9edef155493e1393dd7981efbda015",
+      "sourceType": "github",
+      "skillPath": "skills/style-sampling/SKILL.md",
+      "computedHash": "433d429c44c3e43028f804b4f6a933994d1a7f2c891faef26ec04d42b26cefa2"
+    },
+    "trend-spotter": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/trend-spotter/SKILL.md",
+      "computedHash": "4753495a9cd25a1aafcde6edab86b8a69b5e7e2046c659fba67002125b230737"
+    },
+    "viral-captions-and-ctas": {
+      "source": "vyralcontent/content-skills",
+      "commit": "349e495d97029a3e6303a7510e3f39c73f36d8fe",
+      "sourceType": "github",
+      "skillPath": "skills/viral-captions-and-ctas/SKILL.md",
+      "computedHash": "85eb580e06969217073a677a4acec37692cab6a4ea0c746c64e732488891ef01"
+    },
+    "viral-hook-writer": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/viral-hook-writer/SKILL.md",
+      "computedHash": "4264ec502372e0d34e026c814ffec5a8d0d90ccb428369032db83aa99930189b"
+    },
+    "viral-hooks": {
+      "source": "vyralcontent/content-skills",
+      "commit": "349e495d97029a3e6303a7510e3f39c73f36d8fe",
+      "sourceType": "github",
+      "skillPath": "skills/viral-hooks/SKILL.md",
+      "computedHash": "560daa7eec0c7fabeea30ca6c2636af1a92bc18767a97f9724d614a56f26f595"
+    },
+    "viral-instagram-reels": {
+      "source": "vyralcontent/content-skills",
+      "commit": "349e495d97029a3e6303a7510e3f39c73f36d8fe",
+      "sourceType": "github",
+      "skillPath": "skills/viral-instagram-reels/SKILL.md",
+      "computedHash": "197aacf0ea300a651d1b77e281c9b8fa29be62046f133119098e84fb56b9b5a5"
+    },
+    "viral-short-form": {
+      "source": "vyralcontent/content-skills",
+      "commit": "349e495d97029a3e6303a7510e3f39c73f36d8fe",
+      "sourceType": "github",
+      "skillPath": "skills/viral-short-form/SKILL.md",
+      "computedHash": "bb4330fe033473d1a375d12e97a2e536eef59bec9f53bbf89179b434cd7c0347"
+    },
+    "viral-short-form-ideas": {
+      "source": "vyralcontent/content-skills",
+      "commit": "349e495d97029a3e6303a7510e3f39c73f36d8fe",
+      "sourceType": "github",
+      "skillPath": "skills/viral-short-form-ideas/SKILL.md",
+      "computedHash": "600967a77128e0881164e4c07f2adefedddd5149b4c5812e124768155540a379"
+    },
+    "viral-tiktok-content": {
+      "source": "vyralcontent/content-skills",
+      "commit": "349e495d97029a3e6303a7510e3f39c73f36d8fe",
+      "sourceType": "github",
+      "skillPath": "skills/viral-tiktok-content/SKILL.md",
+      "computedHash": "12ba2c6fa6abab84a1e5c2f47c258ca4ab2dd5cf4fd3b59ffe38000f47a83e03"
+    },
+    "viral-youtube-shorts": {
+      "source": "vyralcontent/content-skills",
+      "commit": "349e495d97029a3e6303a7510e3f39c73f36d8fe",
+      "sourceType": "github",
+      "skillPath": "skills/viral-youtube-shorts/SKILL.md",
+      "computedHash": "fbba03f8b22f6febfc6fe102a9f2d7b29d2a8b118f76ba85bf33e833502d7306"
+    },
+    "virality": {
+      "source": "Ootto-AI/claude-content-skills",
+      "commit": "691875ac3eafaf84ec0bdb0283728c85d2cb3413",
+      "sourceType": "github",
+      "skillPath": "skills/virality/SKILL.md",
+      "computedHash": "6c82a08b5ce796f5995e9e69b7c9d4b5852c19a0c3112b0b62d1ba084fce0ca6"
+    }
+  }
+}
